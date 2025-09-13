@@ -3,6 +3,9 @@ project(muscribe VERSION 1.0)
 
 include(FetchContent)
 
+set(CMAKE_CXX_STANDARD 23)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+
 # G-TEST
 FetchContent_Declare(
   googletest
